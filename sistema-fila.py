@@ -38,28 +38,3 @@ while len(pendentes) > 0:
 
 for chamado in fila_organizada:
     print(chamado['nome'].upper())    
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-melhor_ate_agora = chamados[0]
-for chamado in chamados:
-    melhor_ate_agora = comparar(melhor_ate_agora, chamados[1])
-
